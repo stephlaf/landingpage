@@ -1,6 +1,7 @@
 /* Fonts and Colors */
 body {
-  background: rgb(245, 245, 245);
+  background: #E8EDF4;
+  /*background: rgb(245, 245, 245);*/
   color: #3F5350;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
@@ -43,7 +44,7 @@ a {
 }
 #banner-content {
   text-align: center;
-  margin: 30px 0 50px 0;
+  margin: -20px 0 50px 0;
   width: 60%;
 }
 #banner-content h1 {
@@ -59,13 +60,21 @@ a {
 #button {
 
 }
+.btn-primary {
+  background: rgb(7, 64, 134);
+  border: 0px;
+  &hover {
+    background: rgb(34, 160, 211);
+  }
+}
 
 .card-white {
   background: white;
   text-align: center;
   padding: 20px 0;
   margin: 16px 0;
-  height: 40vh;
+  height: 230px;
+  box-shadow: 1px 1px 2px rgba(97,133,178, 0.2);
 }
 .card-white img {
   margin-bottom: 16px;
@@ -86,20 +95,27 @@ a {
   }
 
 #footer {
-  background: black;
+  /*background: black;*/
+  background: rgb(7, 64, 134);
   padding: 25px 30px;
   color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 #footer a {
   color: white;
   font-size: 24px;
+  opacity: 0.8;
 }
 #footer a:hover {
   color: lightgrey;
   font-size: 24px;
+  opacity: 0.8;
 }
 #footer li {
   padding-right: 30px;
+}
+#footer ul, p {
+  margin-bottom: 0;
 }
